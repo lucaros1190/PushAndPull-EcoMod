@@ -1,6 +1,5 @@
 
-**Matlab script to reproduce the results of Animobono et al. 2026, Ecological Modelling (under review)
-**
+**Matlab script to reproduce the results of Animobono et al. 2026, Ecological Modelling (under review)**
 
 This MATLAB code implements a spatially explicit, stage-structured population model for _Bactrocera oleae_. The model describes the dynamics of an insect population distributed among multiple interconnected sub-areas and includes biological processes such as development, mortality and reproduction, together with wind-driven dispersal and control strategies.
 The spatial structure is represented as a network of interconnected sub-areas. The population within each sub-area is represented by a vector of developmental stages describing the insect life cycle. The population dynamics of each sub-area is driven by a stage-specific transition matrix, while dispersal among sub-areas is regulated by the adjacency relationships of the spatial graph, wind direction and intensity, and the presence of control strategies.
